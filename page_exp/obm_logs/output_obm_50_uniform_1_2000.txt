@@ -1,0 +1,19 @@
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+2226
+495
+2792
+dropped packets = 495
+time = 5427
+OBM
+packets served = 2226
+525.0193477059148 gbps per port
+2849280.0 divide this value by max time
+broken packets = 4

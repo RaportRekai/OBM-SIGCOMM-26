@@ -1,0 +1,10 @@
+640
+123
+836
+dropped packets = 123
+time = 1702
+OBM
+packets served = 640
+481.6921269095182 gbps per port
+819840.0 divide this value by max time
+broken packets = 0

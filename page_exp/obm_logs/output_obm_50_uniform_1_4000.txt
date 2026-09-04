@@ -1,0 +1,44 @@
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+4500
+1024
+5592
+dropped packets = 1024
+time = 10885
+OBM
+packets served = 4500
+529.2861736334405 gbps per port
+5761280.0 divide this value by max time
+broken packets = 14

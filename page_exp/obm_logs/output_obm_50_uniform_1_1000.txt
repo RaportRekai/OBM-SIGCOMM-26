@@ -1,0 +1,10 @@
+1095
+228
+1396
+dropped packets = 228
+time = 2722
+OBM
+packets served = 1095
+515.1506245407788 gbps per port
+1402240.0 divide this value by max time
+broken packets = 0

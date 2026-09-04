@@ -1,0 +1,260 @@
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+0
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+0
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+0
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+0
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+0
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+counting the packet
+0
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+0
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+0
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+0
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+0
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+counting the packet
+0
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+0
+removing the packet from buffer = [3, 0, 80, 2]
+0
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+counting the packet
+0
+removing the packet from buffer = [3, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+0
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+0
+removing the packet from buffer = [4, 0, 80, 2]
+0
+removing the packet from buffer = [3, 0, 80, 2]
+0
+removing the packet from buffer = [4, 0, 80, 2]
+0
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+counting the packet
+counting the packet
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [4, 0, 80, 2]
+counting the packet
+counting the packet
+0
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+0
+removing the packet from buffer = [3, 0, 80, 2]
+0
+removing the packet from buffer = [3, 0, 80, 2]
+counting the packet
+0
+removing the packet from buffer = [3, 0, 80, 2]
+29766
+6855
+36688
+dropped packets = 6855
+time = 71531
+OBM
+packets served = 29766
+532.6518572367225 gbps per port
+38101120.0 divide this value by max time
+broken packets = 101
