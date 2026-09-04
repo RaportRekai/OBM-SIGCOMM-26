@@ -1,4 +1,4 @@
-q_log/*.csv
+*/q_log/*.csv
 
 .DS_Store
 **/.DS_Store
