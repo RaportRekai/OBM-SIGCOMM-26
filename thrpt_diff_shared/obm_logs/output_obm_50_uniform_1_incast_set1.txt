@@ -1,0 +1,157 @@
+9
+removing the packet from buffer = [-1, -1, -1, -1]
+9
+removing the packet from buffer = [0, 4, 80, 0]
+9
+removing the packet from buffer = [-1, -1, -1, -1]
+9
+removing the packet from buffer = [0, 3, 80, 0]
+9
+removing the packet from buffer = [-1, -1, -1, -1]
+9
+removing the packet from buffer = [0, 2, 80, 0]
+9
+removing the packet from buffer = [-1, -1, -1, -1]
+9
+removing the packet from buffer = [0, 1, 80, 0]
+9
+removing the packet from buffer = [-1, -1, -1, -1]
+9
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+4168
+721
+4890
+dropped packets = 721
+time = 69780
+OBM
+packets served = 4168
+716.2785898538264 gbps per port
+49981920.0 divide this value by max time

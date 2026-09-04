@@ -1,0 +1,1 @@
+mkdir -p {spideal_logs,obm_logs,optimal_logs}
