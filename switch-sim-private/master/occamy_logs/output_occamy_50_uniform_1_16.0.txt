@@ -1,0 +1,10 @@
+16.0
+dropped_packet = 3421
+Over in t = 70940
+packets served = 4114
+200Byte packet sent = 0
+1500Byte packet sent = 4114
+DT algo
+695.7519030166337 gbps per port
+49356640.0 divide this value by max time
+[2044.0533333333333, 587.0, 591.0, 536.0, 355.0, 0.0, 0.0, 0.0]

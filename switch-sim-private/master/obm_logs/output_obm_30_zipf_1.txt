@@ -1,0 +1,1197 @@
+1
+removing the packet from buffer = [-1, -1, -1, -1]
+1
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [0, 0, 80, 19]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 7, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 6, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 5, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 4, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 3, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 2, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 1, 80, 0]
+15
+removing the packet from buffer = [-1, -1, -1, -1]
+15
+removing the packet from buffer = [1, 0, 80, 19]
+3220
+550
+3771
+dropped packets = 550
+time = 68865
+OBM
+packets served = 3220
+561.0257750671605 gbps per port
+38635040.0 divide this value by max time

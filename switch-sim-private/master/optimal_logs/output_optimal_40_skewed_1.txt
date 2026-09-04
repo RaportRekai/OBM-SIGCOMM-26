@@ -1,0 +1,6 @@
+dropped packets = 684
+time = 60175
+LQD
+packets served = 2949
+587.8959700872455 gbps per port
+35376640.0 divide this value by max time
