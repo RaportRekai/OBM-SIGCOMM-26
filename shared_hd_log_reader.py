@@ -78,9 +78,9 @@ def main(algo, dist):
     
     # --- DIRECTORIES ---
     # Folder 1: Contains packet counts
-    PACKET_DIR = os.path.join("private_buffer","skewed","master",f"{ALGO}_hd_logs","new_logs")
+    PACKET_DIR = os.path.join("switch-sim-shared","master",f"{ALGO}_hd_logs","new_logs")
     # Folder 2: Contains time logs
-    TIME_DIR =  os.path.join("private_buffer","skewed","master",f"{ALGO}_logs")
+    TIME_DIR =  os.path.join("switch-sim-shared","master",f"{ALGO}_logs")
     
     # File Paths
     PACKET_FILE = os.path.join(PACKET_DIR, f"FINAL_ALL_RESULTS_{DIST_UPPER}.txt")
@@ -128,17 +128,21 @@ def main(algo, dist):
             print(f"{burst:<6} | {packets:<8} | {'MISSING':<10} | {'N/A'}")
 
     # Optional: Save to CSV
-    out_csv = f"{ALGO}_{DIST_LOWER}_throughput.csv"
+    out_csv = f"shared_{ALGO}_{DIST_LOWER}_throughput.csv"
     with open(out_csv, 'w') as f:
         f.write("Burst,Throughput\n")
         for b, t in results:
-            f.write(f"{b},{t}\n")
+            if algo == "dt":
+                f.write(f"{b},{t}\n")
     print(f"\nResults saved to {out_csv}")
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python3 calculate_throughput.py <algo> <distribution>")
-        print("Example: python3 calculate_throughput.py abm skewed")
-        sys.exit(1)
-        
-    main(sys.argv[1], sys.argv[2])
+    # if len(sys.argv) < 3:
+    #     print("Usage: python3 calculate_throughput.py <algo> <distribution>")
+    #     print("Example: python3 calculate_throughput.py abm skewed")
+    #     sys.exit(1)
+    for distribution in ["skewed", "uniform", "zipf"]:
+        print(f"\nProcessing distribution: {distribution}")
+        main("dt", distribution)
+        main("optimal", distribution)        
+    
