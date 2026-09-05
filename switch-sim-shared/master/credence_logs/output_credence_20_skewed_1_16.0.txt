@@ -1,0 +1,21 @@
+--- Starting Simulation for Burst=20 ---
+Loading raw model: ./model_ports8_trees1_depth4.joblib...
+CREDENCE: Optimized model ready.
+Error loading model: name 'found' is not defined
+
+==============================
+      SIMULATION RESULTS      
+==============================
+dropped_packet = 229
+Over in t = 82190
+packets served = 2842
+200Byte packet sent = 0
+1500Byte packet sent = 2842
+CREDENCE algo
+414.8028 Gbps (Aggregate)
+51.8503 Gbps (Per Port Average)
+ML Drops per Port: [229, 0, 0, 0, 0, 0, 0, 0]
+Total ML Drops: 229
+==============================
+
+Log file saved to: master/credence_logs/output_credence_20_skewed_1.txt

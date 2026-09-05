@@ -1,0 +1,9 @@
+3329
+581
+3911
+dropped packets = 581
+time = 62748
+OBM
+packets served = 3329
+636.4607636896793 gbps per port
+39936640.0 divide this value by max time

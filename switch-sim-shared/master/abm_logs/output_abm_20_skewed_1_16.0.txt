@@ -1,0 +1,7 @@
+16.0
+dropped_packet = 178
+Over in time = 92931
+packets served = 2893
+ABM algo
+373.4452443210554 gbps per port
+34704640.0 divide this value by max time

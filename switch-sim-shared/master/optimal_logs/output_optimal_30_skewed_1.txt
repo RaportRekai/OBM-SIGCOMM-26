@@ -1,0 +1,6 @@
+dropped packets = 301
+time = 77091
+LQD
+packets served = 3051
+474.7718929576734 gbps per port
+36600640.0 divide this value by max time

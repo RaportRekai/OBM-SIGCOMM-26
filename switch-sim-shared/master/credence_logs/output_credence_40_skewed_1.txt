@@ -1,0 +1,10 @@
+dropped_packet = 451
+Over in t = 79986
+packets served = 3182
+200Byte packet sent = 0
+1500Byte packet sent = 3182
+CREDENCE algo
+477.2415 Gbps (Aggregate)
+59.6552 Gbps (Per Port Average)
+ML Drops per Port: [229, 0, 0, 0, 0, 0, 0, 0]
+Total ML Drops: 229

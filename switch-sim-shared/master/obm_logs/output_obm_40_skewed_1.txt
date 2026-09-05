@@ -1,0 +1,9 @@
+3191
+441
+3633
+dropped packets = 441
+time = 69383
+OBM
+packets served = 3191
+551.7293861608752 gbps per port
+38280640.0 divide this value by max time

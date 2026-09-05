@@ -1,0 +1,9 @@
+2909
+161
+3071
+dropped packets = 161
+time = 84748
+OBM
+packets served = 2909
+411.769481285694 gbps per port
+34896640.0 divide this value by max time

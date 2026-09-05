@@ -1,0 +1,69 @@
+# ==============================================================================
+#  TIMED SWEEP (Matches Burst % to End Time)
+# ==============================================================================
+
+# 1. SETUP
+cd [get_property DIRECTORY [current_project]]
+set dist_list {0 1 2}
+
+# These lists must correspond (Index 0 matches Index 0, etc.)
+set burst_list    {20     30     40     50}
+
+
+set verilog_filename "VERILOG_RESULTS.txt"
+set final_output "FINAL_ALL_RESULTS.txt"
+
+# 2. CLEAR FINAL OUTPUT
+set f [open $final_output "w"]
+puts $f "Simulation Sweep Results - [clock format [clock seconds]]"
+puts $f "=================================================="
+close $f
+
+puts "RESULTS WILL BE SAVED TO: [file normalize $final_output]"
+
+# 3. RUN THE SWEEP
+foreach dist $dist_list {
+    
+    # We iterate by Index (0, 1, 2...) so we can pick from both lists simultaneously
+    for {set i 0} {$i < [llength $burst_list]} {incr i} {
+        
+        # Extract the pair of values for this run
+        set burst [lindex $burst_list $i]
+
+        puts "RUNNING: Dist=$dist | Burst=$burst% "
+
+        # A. SET PARAMETERS & RUN
+        # We pass 'end_time' as a generic. This REQUIRE 'end_time' to be a parameter in Verilog.
+        set_property generic "DISTRIBUTION_TYPE=$dist BURST_PERCENT=$burst" [get_filesets sim_1]
+        
+        reset_simulation -simset sim_1 -mode behavioral
+        launch_simulation
+        run -all
+        close_sim -force
+        
+        # B. RETRIEVE DATA
+        set generated_files [glob -nocomplain ./*.sim/sim_1/behav/xsim/$verilog_filename]
+        if {$generated_files == ""} {
+             set generated_files [glob -nocomplain ./*/*.sim/sim_1/behav/xsim/$verilog_filename]
+        }
+
+        if {$generated_files != ""} {
+            set source_file [lindex $generated_files 0]
+            
+            if {![catch {exec cat $source_file} content]} {
+                set fout [open $final_output "a"]
+                puts $fout $content
+                close $fout
+                puts "  -> Saved."
+            } else {
+                puts "  ERROR: Could not read $source_file"
+            }
+        } else {
+            puts "  ERROR: Verilog output file not found."
+        }
+    }
+}
+
+puts "----------------------------------------------------------------"
+puts "SWEEP COMPLETE."
+puts "----------------------------------------------------------------"
