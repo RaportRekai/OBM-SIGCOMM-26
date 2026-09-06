@@ -1,0 +1,255 @@
+reading CSV file: output_new_50_uniform_1.csv
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 0, 80, 19, 1575]
+tap_idx=27, free_blocks=7, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 0, 80, 19, 1575]
+lqd_bit=1, final_add[0][7]=-1
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 1, 80, 0, 1575]
+tap_idx=27, free_blocks=10, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 1, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269690256
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 2, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 2, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269682656
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 3, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 3, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269682016
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 4, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 4, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269681456
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 5, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 5, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=270138976
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 6, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 6, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269680496
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 7, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 7, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269679856
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 8, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 8, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269679536
+===========================
+7
+removing the packet from buffer = [-1, -1, -1, -1, -1]
+7
+removing the packet from buffer = [2, 3, 80, 0, 318]
+7
+removing the packet from buffer = [-1, -1, -1, -1, -1]
+7
+removing the packet from buffer = [2, 2, 80, 0, 318]
+7
+removing the packet from buffer = [-1, -1, -1, -1, -1]
+7
+removing the packet from buffer = [2, 1, 80, 0, 318]
+7
+removing the packet from buffer = [-1, -1, -1, -1, -1]
+7
+removing the packet from buffer = [2, 0, 80, 19, 318]
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 9, 80, 0, 1575]
+tap_idx=27, free_blocks=8, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 9, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=270139536
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 10, 80, 0, 1575]
+tap_idx=27, free_blocks=8, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 10, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=270452736
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 11, 80, 0, 1575]
+tap_idx=27, free_blocks=8, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 11, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=270363536
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 12, 80, 0, 1575]
+tap_idx=27, free_blocks=7, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 12, 80, 0, 1575]
+lqd_bit=1, final_add[0][7]=-1
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 13, 80, 0, 1575]
+tap_idx=27, free_blocks=15, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 13, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=270367136
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 14, 80, 0, 1575]
+tap_idx=27, free_blocks=13, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 14, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=270161696
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 15, 80, 0, 1575]
+tap_idx=27, free_blocks=11, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 15, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269682656
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 16, 80, 0, 1575]
+tap_idx=27, free_blocks=10, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 16, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=268792416
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 17, 80, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 17, 80, 0, 1575]
+lqd_bit=0, final_add[0][7]=269676496
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_TAP
+ingress = 7
+cell = [0, 18, 60, 0, 1575]
+tap_idx=27, free_blocks=9, stop=0, lqd_bit_pending_before=0
+===========================
+========== TRACE ==========
+stage = DEMAND_CALC_DECISION_DONE
+ingress = 7
+cell = [0, 18, 60, 0, 1575]
+lqd_bit=0, final_add[0][7]=269675856
+===========================
+5143
+865
+6009
+dropped packets = 865
+time = 87002
+OBM
+packets served = 5143
+709.363003149353 gbps per port
+61716640.0 divide this value by max time
+priority inversion = 12
