@@ -26,5 +26,15 @@ for buf in "${buffer[@]}"; do
         "$buf" \
         | tee "obm_logs/output_obm_${burst_percent}_${incast_value}_${round_values}_${buf}.txt"
 
+    echo "Running Optimal..."
+    python 'algo_optimal_attmpt.py' \
+        "$burst_percent" \
+        "$incast_value" \
+        "$round_values" \
+        "$buf" \
+        | tee "optimal_logs/output_optimal_${burst_percent}_${incast_value}_${round_values}_${buf}.txt"
+
 
 done
+
+python algo_parse_thrgpt.py
