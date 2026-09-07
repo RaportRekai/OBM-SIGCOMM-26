@@ -747,7 +747,7 @@ def build_private_line_points_by_tick(bar_x_positions, private_points_by_tick):
     return segments
 
 
-def plot_all(wildcard, ticks, shared_bars, drops, private_points_by_tick):
+def plot_all(wildcard, ticks, shared_bars, drops, private_points_by_tick,incast_arg):
     fig1, ax1 = plt.subplots(figsize=(16, 10))
 
     bar_x_positions = grouped_bars(
@@ -785,8 +785,8 @@ def plot_all(wildcard, ticks, shared_bars, drops, private_points_by_tick):
     lgd.get_frame().set_edgecolor("black")
 
     fig1.tight_layout()
-    save_png(fig1, "throughput_combined.png")
-    print("Generated throughput_combined.png")
+    save_png(fig1, f"throughput_combined_{incast_arg}.png")
+    print(f"Generated throughput_combined_{incast_arg}.png")
 
     fig2, ax2 = plt.subplots(figsize=(16, 8))
 
@@ -868,7 +868,8 @@ def main():
         ticks,
         shared_bars,
         drops,
-        private_points_by_tick
+        private_points_by_tick,
+        incast_arg
     )
 
 
