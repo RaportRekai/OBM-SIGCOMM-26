@@ -78,7 +78,7 @@ def main(algo, dist):
     
     # --- DIRECTORIES ---
     # Folder 1: Contains packet counts
-    PACKET_DIR = os.path.join("switch-sim-shared","master",f"{ALGO}_hd_logs","new_logs")
+    PACKET_DIR = os.path.join("switch-sim-shared","master",f"{ALGO}_hd_logs")
     # Folder 2: Contains time logs
     TIME_DIR =  os.path.join("switch-sim-shared","master",f"{ALGO}_logs")
     
