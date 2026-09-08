@@ -28,22 +28,22 @@ python3 stats.py lqd-ideal 0.3 >> stats_lqd_ideal.txt
 mv "$LOG_DIR/recvd-flows-0.3.txt" "$NEW_FOLDER/"
 cp "$SWITCH_FILE" "$NEW_FOLDER/"
 
-# cd net-sim-lqd-ideal
-# python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.6.csv.processed" 0.6 1000000
-# cd ..
-# mkdir -p "$NEW_FOLDER"
-# echo workloads/websearch-trace-100G-load-0.6.csv.processed >> stats_lqd_ideal.txt
-# python3 stats.py lqd-ideal 0.6
-# python3 stats.py lqd-ideal 0.6 >> stats_lqd_ideal.txt
-# mv "$LOG_DIR/recvd-flows-0.6.txt" "$NEW_FOLDER/"
-# cp "$SWITCH_FILE" "$NEW_FOLDER/"
+cd net-sim-lqd-ideal
+python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.6.csv.processed" 0.6 1000000
+cd ..
+mkdir -p "$NEW_FOLDER"
+echo workloads/websearch-trace-100G-load-0.6.csv.processed >> stats_lqd_ideal.txt
+python3 stats.py lqd-ideal 0.6
+python3 stats.py lqd-ideal 0.6 >> stats_lqd_ideal.txt
+mv "$LOG_DIR/recvd-flows-0.6.txt" "$NEW_FOLDER/"
+cp "$SWITCH_FILE" "$NEW_FOLDER/"
 
-# cd net-sim-lqd-ideal
-# python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.9.csv.processed" 0.9 1000000
-# cd ..
-# mkdir -p "$NEW_FOLDER"
-# echo workloads/websearch-trace-100G-load-0.9.csv.processed >> stats_lqd_ideal.txt
-# python3 stats.py lqd-ideal 0.9
-# python3 stats.py lqd-ideal 0.9 >> stats_lqd_ideal.txt
-# mv "$LOG_DIR/recvd-flows-0.9.txt" "$NEW_FOLDER/"
-# cp "$SWITCH_FILE" "$NEW_FOLDER/"
+cd net-sim-lqd-ideal
+python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.9.csv.processed" 0.9 1000000
+cd ..
+mkdir -p "$NEW_FOLDER"
+echo workloads/websearch-trace-100G-load-0.9.csv.processed >> stats_lqd_ideal.txt
+python3 stats.py lqd-ideal 0.9
+python3 stats.py lqd-ideal 0.9 >> stats_lqd_ideal.txt
+mv "$LOG_DIR/recvd-flows-0.9.txt" "$NEW_FOLDER/"
+cp "$SWITCH_FILE" "$NEW_FOLDER/"

@@ -54,27 +54,27 @@ NEW_FOLDER="$ARCHIVE_DIR/run_$NEXT_NUM"
 
 ## Websearch Workloads
 
-# cd net-sim-credence
-# python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.3.csv.processed" 0.3 1000000
-# cd ..
-# mkdir -p "$NEW_FOLDER"
-# echo workloads/websearch-trace-100G-load-0.3.csv.processed >> stats_credence.txt
-# python3 stats.py credence 0.3
-# python3 stats.py credence 0.3 >> stats_credence.txt
-# mv "$LOG_DIR/recvd-flows-0.3.txt" "$NEW_FOLDER/"
-# cp "$SWITCH_FILE" "$NEW_FOLDER/"
+cd net-sim-credence
+python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.3.csv.processed" 0.3 1000000
+cd ..
+mkdir -p "$NEW_FOLDER"
+echo workloads/websearch-trace-100G-load-0.3.csv.processed >> stats_credence.txt
+python3 stats.py credence 0.3
+python3 stats.py credence 0.3 >> stats_credence.txt
+mv "$LOG_DIR/recvd-flows-0.3.txt" "$NEW_FOLDER/"
+cp "$SWITCH_FILE" "$NEW_FOLDER/"
 
 
 
-# cd net-sim-credence
-# python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.6.csv.processed" 0.6 1000000
-# cd ..
-# mkdir -p "$NEW_FOLDER"
-# echo workloads/websearch-trace-100G-load-0.6.csv.processed >> stats_credence.txt
-# python3 stats.py credence 0.6
-# python3 stats.py credence 0.6 >> stats_credence.txt
-# mv "$LOG_DIR/recvd-flows-0.6.txt" "$NEW_FOLDER/"
-# cp "$SWITCH_FILE" "$NEW_FOLDER/"
+cd net-sim-credence
+python3 network.py 144-host-2-tier-fattree.json "workloads/websearch-trace-100G-load-0.6.csv.processed" 0.6 1000000
+cd ..
+mkdir -p "$NEW_FOLDER"
+echo workloads/websearch-trace-100G-load-0.6.csv.processed >> stats_credence.txt
+python3 stats.py credence 0.6
+python3 stats.py credence 0.6 >> stats_credence.txt
+mv "$LOG_DIR/recvd-flows-0.6.txt" "$NEW_FOLDER/"
+cp "$SWITCH_FILE" "$NEW_FOLDER/"
 
 
 

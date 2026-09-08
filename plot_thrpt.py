@@ -618,13 +618,13 @@ def main():
 
     ap.add_argument(
         "--private-dir",
-        default="obm-sim-swift-websearch-priority-private",
+        default="obm-sim-dctcp-websearch-priority-private",
         help="Folder containing private-buffer stats files.",
     )
 
     ap.add_argument(
         "--shared-dir",
-        default="obm-sim-swift-websearch-priority-shared",
+        default="obm-sim-dctcp-websearch-priority-shared",
         help="Folder containing shared-buffer stats files.",
     )
 

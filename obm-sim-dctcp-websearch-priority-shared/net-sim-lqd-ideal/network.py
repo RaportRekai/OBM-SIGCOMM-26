@@ -89,7 +89,7 @@ class Network:
                 self.switches[addr2].port_qsize[p2] = 0
 
 
-    def run(self, flowtrace, endTimeslot, flowLogFile):
+    def run(self, flowtrace, endTimeslot, flowLogFile,ld):
         """Run the network"""
         self.addLinks()
 
@@ -155,7 +155,7 @@ class Network:
                 startTimeslot = int(tokens[6].strip())
 
             for h in self.hosts:
-                counts_delta, events = self.hosts[h].runHost(currTimeslot, flowLogFile, ackQueues, totalPktSent, totalPktRecvd, totalFlowsFinished)
+                counts_delta, events = self.hosts[h].runHost(currTimeslot, flowLogFile, ackQueues, totalPktSent, totalPktRecvd, totalFlowsFinished,ld)
                 self.reordering_pairs[h] = {fk: list(v) for fk, v in events.items()}
             for s in self.switches:
                 self.switches[s].runSwitch(currTimeslot)
@@ -245,7 +245,7 @@ def main():
         if f not in protected:
             os.remove(f)
     flowLogFile = open(f"logs/recvd-flows-{logname}.txt", "a")
-    net.run(flowtrace, endTimeslot, flowLogFile)
+    net.run(flowtrace, endTimeslot, flowLogFile,logname)
     flowLogFile.close()
     return
 
