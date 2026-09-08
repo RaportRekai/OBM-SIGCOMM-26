@@ -9,7 +9,7 @@ alpha=(16.0)
 rm -rf q_log/*
 
 for i in ${!buffer[@]}; do
-    /bin/python 'LQD/master/two_phase_workload_8_page.py' ${burst_percent} $incast_value $round_values ${buffer[$i]}
+    /bin/python 'two_phase_workload_8_page.py' ${burst_percent} $incast_value $round_values ${buffer[$i]}
     #/bin/python 'LQD/master/two_phase_workload_8.py' ${burst_percent[$i]} $incast_value $round_values
     echo "Generating master/two_phase_workload_8_last_s.py ${burst_percent} $incast_value $round_values"
 done
@@ -18,11 +18,11 @@ for i in ${!buffer[@]}; do
     #echo "started running abm for ${burst_percent[$i]}"
     #taskset -c $((6*i+0)) /bin/python 'algo_abm.py' ${burst_percent[$i]} $incast_value $round_values $alpha | tee  master/abm_logs/output_abm_${burst_percent[$i]}_${incast_value}_${round_values}_${alpha}.txt &
     #taskset -c $((6*i+1)) /bin/python 'algo_dt.py' ${burst_percent[$i]} $incast_value $round_values $alpha | tee  master/dt_logs/output_dt_${burst_percent[$i]}_${incast_value}_${round_values}_${alpha}.txt &
-    taskset -c $((6*i+2)) /bin/python 'LQD/algo_obm_bufferdrop.py' ${burst_percent} $incast_value $round_values ${buffer[$i]} | tee  LQD/master/obm_logs/output_obm_${burst_percent}_${incast_value}_${round_values}_${buffer[$i]}.txt &
+    taskset -c $((6*i+2)) python 'algo_obm_bufferdrop.py' ${burst_percent} $incast_value $round_values ${buffer[$i]} | tee  obm_logs/output_obm_${burst_percent}_${incast_value}_${round_values}_${buffer[$i]}.txt &
     #taskset -c $((6*i+3)) /bin/python 'LQD/algo_obm_bufferdrop.py' ${burst_percent[$i]} $incast_value $round_values first_s | tee  LQD/master/obm_logs/output_obm_${burst_percent[$i]}_${incast_value}_${round_values}.txt &
     
     #taskset -c $((6*i+3)) /bin/python 'algo_occamy.py' ${burst_percent[$i]} $incast_value $round_values 16 | tee  master/occamy_logs/output_occamy_${burst_percent[$i]}_${incast_value}_${round_values}_${alpha}.txt &
-    taskset -c $((6*i+4)) /bin/python 'LQD/algo_optimal_attmpt.py' ${burst_percent} $incast_value $round_values ${buffer[$i]} | tee  LQD/master/optimal_logs/output_optimal_${burst_percent}_${incast_value}_${round_values}_${buffer[$i]}.txt &
+    taskset -c $((6*i+4)) python 'algo_optimal_attmpt.py' ${burst_percent} $incast_value $round_values ${buffer[$i]} | tee  optimal_logs/output_optimal_${burst_percent}_${incast_value}_${round_values}_${buffer[$i]}.txt &
     #taskset -c $((6*i+5)) /bin/python 'algo_credence.py' ${burst_percent[$i]} $incast_value $round_values 16
 done
 wait
@@ -105,3 +105,4 @@ wait
 #     taskset -c $((4*i+2)) /bin/python 'LQD/algo_dt.py' $burst_percent $incast_value $round_values ${alpha[$i]} | tee LQD/master/dt_logs/output_dt_${burst_percent[$i]}_${incast_value}_${round_values}_${alpha[$i]}.txt &
 # done
 # wait
+python algo_parse_thrgpt.py
