@@ -39,6 +39,8 @@ touch stats_spreal.txt
 touch stats_lqd_ideal.txt
 touch stats_occamy.txt
 
+export PYTHONUNBUFFERED=1
+
 taskset -c 0 bash run_abm.sh        > junk_logs/abm.txt        2>&1 &
 taskset -c 1 bash run_credence.sh   > junk_logs/credence.txt   2>&1 &
 taskset -c 2 bash run_dt.sh         > junk_logs/dt.txt         2>&1 &
