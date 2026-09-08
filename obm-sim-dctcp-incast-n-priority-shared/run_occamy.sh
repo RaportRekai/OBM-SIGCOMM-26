@@ -12,7 +12,7 @@ NEW_FOLDER="$ARCHIVE_DIR/run_$NEXT_NUM"
 
 # Incast
 cd net-sim-occamy
-python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.2.csv.processed" 0.2 1000000
+python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.2.csv.processed" 0.2 35000
 cd ..
 mkdir -p "$NEW_FOLDER"
 echo workloads/incast-trace-100G-degree-0.2.csv.processed >> stats_occamy.txt
@@ -22,7 +22,7 @@ mv "$LOG_DIR/recvd-flows-0.2.txt" "$NEW_FOLDER/"
 cp "$SWITCH_FILE" "$NEW_FOLDER/"
 
 cd net-sim-occamy
-python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.4.csv.processed" 0.4 1000000
+python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.4.csv.processed" 0.4 40000
 cd ..
 mkdir -p "$NEW_FOLDER"
 echo workloads/incast-trace-100G-degree-0.4.csv.processed >> stats_occamy.txt
@@ -32,7 +32,7 @@ mv "$LOG_DIR/recvd-flows-0.4.txt" "$NEW_FOLDER/"
 cp "$SWITCH_FILE" "$NEW_FOLDER/"
 
 cd net-sim-occamy
-python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.6.csv.processed" 0.62 1000000
+python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.6.csv.processed" 0.62 100000
 cd ..
 mkdir -p "$NEW_FOLDER"
 echo workloads/incast-trace-100G-degree-0.6.csv.processed >> stats_occamy.txt
@@ -42,7 +42,7 @@ mv "$LOG_DIR/recvd-flows-0.62.txt" "$NEW_FOLDER/"
 cp "$SWITCH_FILE" "$NEW_FOLDER/"
 
 cd net-sim-occamy
-python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.8.csv.processed" 0.8 1000000
+python3 network.py 144-host-2-tier-fattree.json "workloads/incast-trace-100G-degree-0.8.csv.processed" 0.8 40000
 cd ..
 mkdir -p "$NEW_FOLDER"
 echo workloads/incast-trace-100G-degree-0.8.csv.processed >> stats_occamy.txt

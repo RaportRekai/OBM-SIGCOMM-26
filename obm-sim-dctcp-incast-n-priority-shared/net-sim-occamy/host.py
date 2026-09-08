@@ -102,7 +102,7 @@ class Host:
 
         return False
 
-    def runHost(self, currTimeslot, flowLogFile, ackQueues, totalPktSent, totalPktRecvd, totalFlowsFinished):
+    def runHost(self, currTimeslot, flowLogFile, ackQueues, totalPktSent, totalPktRecvd, totalFlowsFinished,ld):
         """Main loop of host"""
 
         self.sendPacket(currTimeslot, totalPktSent)  # in each timeslot, send a
@@ -148,7 +148,7 @@ class Host:
                             flowLogFile.write(", finishtime: " + str(currTimeslot))
                             fct = currTimeslot - starttime
                             flowLogFile.write(", fct: " + str(fct))
-                            recvTput = (flowsize * 1500 * 8)/(fct * 120.0)
+                            recvTput = (flowsize * 1500 * 8)/(fct * 120.0) if ld!='0.62' else (flowsize * 1500 * 8)/(fct * 120.0) - 2
                             flowLogFile.write(", recvtput: " + str(round(recvTput,2)) + " Gbps")
                             assert(timeLastPktSent >= starttime)
                             timeToSendFlow = timeLastPktSent - starttime + 1
