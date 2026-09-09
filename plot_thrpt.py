@@ -618,13 +618,13 @@ def main():
 
     ap.add_argument(
         "--private-dir",
-        default="obm-sim-swift-incast-priority-private",
+        default="obm-sim-dctcp-incast-priority-private",
         help="Folder containing private-buffer stats files.",
     )
 
     ap.add_argument(
         "--shared-dir",
-        default="obm-sim-swift-incast-priority-shared",
+        default="obm-sim-dctcp-incast-priority-shared",
         help="Folder containing shared-buffer stats files.",
     )
 
