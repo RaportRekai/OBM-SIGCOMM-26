@@ -53,7 +53,7 @@ def print_fct_stats(name, arr):
     arr = sorted(arr)
     avgfct = np.mean(arr) if arr else float('nan')
     p99fct = np.percentile(arr, 99.6) if arr else float('nan')
-    if arr and algo in ('obm', 'credence', 'occamy'):
+    if arr and algo in ('obm', 'credence', 'occamy','lqd','lqd-ideal'):
         p99fct = np.percentile(arr, 99)
     p999fct = np.percentile(arr, 99.9) if arr else float('nan')
     sys.stdout.write(f"Average FCT {name} flows: {round(avgfct,3)}us\n")
