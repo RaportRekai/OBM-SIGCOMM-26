@@ -1,0 +1,236 @@
+# The code is subject to Purdue University copyright policies.
+# Do not share, distribute, or post online.
+
+import sys
+import queue
+import hashlib
+from link import Link
+import math
+import copy
+
+
+class Switch():
+    """Switch class"""
+
+    def __init__(self, addr, num_tor_ports, num_agg_ports, hosts_per_rack):
+        """Initialize parameters"""
+        self.addr = addr  # address of switch
+        self.links = {}   # links indexed by port, i.e., {port:link, ......, port:link}
+        self.queues = {}  # list of virtual output queues (of type queue.Queue) per port
+                          # indexed by port, i.e., {port:[queue], ......, port:[queue]}
+                          # each virtual output queue is a FIFO queue of infinite size
+        self.voq_rr = {}  # stores the VOQ per port to be serviced next
+        self.per_port_max_qsize = 5  # in terms of number of size in Bytes
+        
+        self.num_tor_ports = num_tor_ports
+        self.num_agg_ports = num_agg_ports
+        self.hosts_per_rack = hosts_per_rack
+        self.tor_buff_size = self.per_port_max_qsize * self.num_tor_ports # in terms of number of packets
+        self.agg_buff_size = self.per_port_max_qsize * self.num_agg_ports # in terms of number of packets
+        self.packet_dropped = 0
+        self.port_qsize = {}  # number of packets queued per port
+        self.priority_classes = 3
+        
+        if self.addr[0] == 't':
+            self.ports = num_tor_ports
+            self.total_buffer_size = self.per_port_max_qsize*num_tor_ports
+            self.N = self.ports
+            self.voq_port_qsize = [[0 for i in range(self.priority_classes)] for _ in range(self.N)]
+            print(num_tor_ports)
+        elif self.addr[0] == 'a':
+            self.ports = num_agg_ports
+            self.total_buffer_size = self.per_port_max_qsize*num_agg_ports
+            self.N = self.ports
+            self.voq_port_qsize = [[0 for i in range(self.priority_classes)] for _ in range (self.N)]
+            print(num_agg_ports)
+            
+
+        #########################################################################################################
+        self.total_usage = 0 
+        self.final_add = [0 for i in range(self.N)]
+        self.T = self.total_buffer_size/(self.N)
+        #self.T_h = self.total_buffer_size/(self.N)
+        self.sent = 0
+        
+        # Occamy typically uses a higher alpha (e.g., 8) for efficiency 
+        self.alpha = 8
+        
+        self.t = 0
+        self.track = 0
+
+        # --- OCCAMY INITIALIZATION ---
+        self.drop_timer = 0       # To track 2-cycle latency 
+        self.rr_drop_index = 0    # For Round-Robin selection of over-allocated queues 
+
+    def runSwitch(self, currTimeslot):
+        """Main loop of switch"""
+        self.t+=1
+        
+        # --- OCCAMY EXPULSION LOGIC START ---
+        self.drop_timer += 1
+        
+        if self.drop_timer % 2 == 0:
+            ports_list = list(self.links.keys())
+            packet_expelled = False
+            
+            for i in range(len(ports_list)):
+                curr_idx = (self.rr_drop_index + i) % len(ports_list)
+                port = ports_list[curr_idx]
+                
+                if self.port_qsize[port] > self.T:
+                    
+                    # FIX: Iterate in REVERSE to drop Lowest Priority (Highest Index) first
+                    # Assuming queues = [High, Med, Low], we want to check Low first.
+                    for prio_idx in range(len(self.queues[port]) - 1, -1, -1):
+                        pq = self.queues[port][prio_idx]
+                        
+                        if hasattr(pq, 'queue') and len(pq.queue) > 0:
+                            head_packet = pq.queue[0]
+                            
+                            if head_packet.invalid == 0:
+                                head_packet.invalid = 1 
+                                
+                                self.total_usage -= 1
+                                self.port_qsize[port] -= 1
+                                self.voq_port_qsize[port-1][head_packet.priority-1] -= 1
+                                self.packet_dropped += 1
+                                
+                                self.rr_drop_index = (curr_idx + 1) % len(ports_list)
+                                packet_expelled = True
+                                break 
+                    
+                    if packet_expelled:
+                        break
+        # --- OCCAMY EXPULSION LOGIC END ---
+
+        
+        for port in self.links.keys():  # in each timeslot, send a packet
+                                        # at the head of a VOQ at each port.
+                                        # VOQs at each port are scheduled in
+                                        # round robin manner
+            start = self.voq_rr[port]
+            flag_1 = 0
+            for i in range(0,len(self.queues[port])+1):
+                if self.queues[port][(start+i)%len(self.queues[port])].empty():
+                    continue
+                else:
+                    packet = self.queues[port][(start+i)%len(self.queues[port])].get_nowait()
+                    
+                    # --- EGRESS CHECK FOR DROPPED PACKETS ---
+                    if packet.invalid == 1:
+                        # This packet was "dropped" by Occamy earlier.
+                        # We discard it and continue to look for a valid packet to send 
+                        # (or just break, effectively wasting the slot if bandwidth was consumed).
+                        # Since usage counters were already decremented during expulsion, do nothing else.
+                        continue 
+                    # ----------------------------------------
+
+                    #print(packet)
+                    for j in range(0,self.queues[port][(start+i)%len(self.queues[port])].qsize()+1):
+                        if packet.invalid == 0:
+                            #print("packetsent")
+                            self.voq_rr[port] = (start+i+1)%len(self.queues[port])
+                            packet.hops += 1
+                            self.links[port].send(packet, self.addr, currTimeslot)
+                            self.port_qsize[port] -= 1
+                            self.sent+=1
+                            #print(f"I - {self.addr} have {self.total_usage}/{self.total_buffer_size} packets in buffer")
+                            #print(f"Packet sent = {self.addr} at {port-1} {(start+i)%len(self.queues[port])} at time {self.t}")
+                            # if self.queues[port][(start+i)%len(self.queues[port])].qsize()!=0:
+                            #     efef
+                            self.total_usage -= 1 
+                            self.voq_port_qsize[port-1][(start+i)%len(self.queues[port])]-=1
+                            flag_1 = 1
+                            assert(self.port_qsize[port] >= 0)
+                            break
+                        else:
+                            print("Invalid packet!!")
+
+                    if flag_1 == 1:
+                        
+                        break
+
+
+        for port in self.links.keys():  # in each timeslot, receive a
+                                        # pa cket (if any) on each input
+                                        # port and handle it
+            packet = self.links[port].recv(self.addr, currTimeslot)
+            if packet:
+                self.handleRecvdPacket(port, packet, currTimeslot)
+            else:
+                self.final_add[port-1] = 0
+        
+        #if self.t > self.track:
+        #    self.track +=200
+        #    if self.addr == 't9':
+        #            print(f"usage = {self.total_usage}/{self.total_buffer_size}")
+        #            print(f"dropped = {self.packet_dropped}")
+        #            #print(f"nqa = {self.nqa}")
+        #            print(f"occupancy = {self.port_qsize}")
+        #            print(f"threshold = {self.T}")
+
+        
+    def setECNFlag(self, packet, outPort):
+        if self.port_qsize[outPort] > self.K:
+            packet.ecnFlag = 1
+
+
+    def ecmp(self, packet):
+        flowid = packet.srcAddr + packet.dstAddr + str(packet.srcPort) + str(packet.dstPort)
+        outPort = int(hashlib.sha256(flowid.encode('utf-8')).hexdigest(), 16) % (self.num_tor_ports - self.hosts_per_rack) + (self.hosts_per_rack + 1)
+        return outPort
+
+
+    def getOutPort(self, switchId, packet):
+        if switchId[0] == 't':
+            if int(packet.dstAddr[1:]) >= int(switchId[1])*16-15 and int(packet.dstAddr[1:]) <= int(switchId[1])*16:
+                return int(packet.dstAddr[1:])-((int(switchId[1])-1)*16)
+            else:
+                return self.ecmp(packet)
+        elif switchId[0] == 'a':
+            return int((int(packet.dstAddr[1:])-1)/16)+1
+######################################################################## Additional ######################################################################################
+
+    def threshold_calculate(self):
+        
+        for n1 in range(self.ports):
+            self.T = self.alpha*(self.total_buffer_size-self.total_usage)
+
+###############################################################################################################################################################
+
+    def handleRecvdPacket(self, inPort, packet, arrivalTime):
+        """Handle the packet received on the specified input port 'inPort'.
+           arrivalTime is the timeslot in which the packet was received"""
+        outPort = self.getOutPort(self.addr, packet)  # output port the packet needs to be sent out on
+        
+################################################################################ BIT MAPPER ########################################################################################
+        # Occamy Admission Control using Adjusted DT [cite: 435]
+        # Occamy only needs a small buffer reservation, so it uses standard DT checks here.
+        
+        if self.total_buffer_size > self.total_usage:
+            
+                ######## WHY??
+            #self.queues[outPort][inPort-1].put(packet)  # add packet to the right VOQ at the output port
+            if self.port_qsize[outPort] < self.T:
+                self.final_add[inPort-1] = 1
+                self.total_usage +=1
+                self.queues[outPort][packet.priority-1].put(packet)
+                self.port_qsize[outPort] += 1
+                self.voq_port_qsize[outPort-1][packet.priority-1]+=1
+                #self.setECNFlag(packet, outPort)
+                #print(f"Packet placed = {self.addr} at {outPort-1} {inPort-1} at time {self.t}")
+            #print("Packets scheduled via final add")
+            else:
+                self.final_add[inPort-1] = 0
+                #print("Packet drop due to DT")
+                self.packet_dropped += 1
+                #print(f"packet dropped = {self.packet_dropped}")
+                pass
+            
+        else:
+            self.final_add[inPort-1] = 0
+            print("Packet drop due to space constraint")
+            self.packet_dropped += 1
+            pass
+        
+        self.threshold_calculate()
