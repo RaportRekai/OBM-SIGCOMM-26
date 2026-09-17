@@ -1,9 +1,13 @@
 #!/bin/bash
-sudo apt update
-sudo apt install python3.10-venv
-# Create virtual environment
-python3 -m venv obm
 
+sudo apt update
+sudo apt install -y python3.10 python3.10-venv
+
+# brew install python@3.10
+
+
+# rm -rf obm
+python3.10 -m venv obm
 # Activate virtual environment
 source obm/bin/activate
 
