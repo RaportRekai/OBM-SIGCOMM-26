@@ -1,0 +1,7 @@
+dropped_packet = 1487
+Over in t = 15922
+packets served = 5213
+200Byte packet sent = 0
+1500Byte packet sent = 5213
+DT algo
+3928.189925888707 gbps per port
