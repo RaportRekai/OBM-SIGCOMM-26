@@ -1,0 +1,6 @@
+Network throughput (assuming 100G link and 1500B pkt): 1078.159 Gbps
+Network throughput (assuming 100G link and 1500B pkt): 1430.692 Gbps
+Network throughput (assuming 100G link and 1500B pkt): 885.965 Gbps
+Network throughput (assuming 100G link and 1500B pkt): 1078.159 Gbps
+Network throughput (assuming 100G link and 1500B pkt): 1430.692 Gbps
+Network throughput (assuming 100G link and 1500B pkt): 885.965 Gbps

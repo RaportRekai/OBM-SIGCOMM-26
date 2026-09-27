@@ -148,7 +148,7 @@ class Host:
                             flowLogFile.write(", flowsize: " + str(flowsize))
                             flowLogFile.write(", starttime: " + str(starttime))
                             flowLogFile.write(", finishtime: " + str(currTimeslot))
-                            fct = currTimeslot - starttime + (400*(int(float(ld)/0.9))/0.12)
+                            fct = currTimeslot - starttime + int(400*(int(float(ld)/0.9))/0.12)
                             flowLogFile.write(", fct: " + str(fct))
                             recvTput = (flowsize * 1500 * 8)/(fct * 120.0)
                             flowLogFile.write(", recvtput: " + str(round(recvTput,2)) + " Gbps")

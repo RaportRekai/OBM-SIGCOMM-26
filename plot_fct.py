@@ -227,10 +227,10 @@ def plot_fct(abm_values, lqd_values, output_name="abm_lqd_p99_fct"):
 # ============================================================
 # Read files
 # ============================================================
-ABM_FILE = os.path.join('./obm-sim-websearch-priority-shared', ABM_FILE)
-LQD_FILE = os.path.join('./obm-sim-websearch-priority-shared', LQD_FILE)
-abm = extract_p99_short_fct(ABM_FILE)
-lqd = extract_p99_short_fct(LQD_FILE)
+ABM_FILE_F = os.path.join('./obm-sim-websearch-priority-shared', ABM_FILE)
+LQD_FILE_F = os.path.join('./obm-sim-websearch-priority-shared', LQD_FILE)
+abm = extract_p99_short_fct(ABM_FILE_F)
+lqd = extract_p99_short_fct(LQD_FILE_F)
 
 print("Last ABM values:", abm)
 print("Last LQD values:", lqd)
@@ -240,12 +240,12 @@ print("Last LQD values:", lqd)
 for load in LOADS:
     if load not in abm:
         raise ValueError(
-            f"Could not find Websearch load {load} in {ABM_FILE}"
+            f"Could not find Websearch load {load} in {ABM_FILE_F}"
         )
 
     if load not in lqd:
         raise ValueError(
-            f"Could not find Websearch load {load} in {LQD_FILE}"
+            f"Could not find Websearch load {load} in {LQD_FILE_F}"
         )
 
 
@@ -255,10 +255,11 @@ lqd_values = [lqd[load] for load in LOADS]
 plot_fct(abm_values, lqd_values, output_name="abm_lqd_p99_fct_priority")
 
 
-ABM_FILE = os.path.join('./obm-sim-websearch-n-priority-shared', ABM_FILE)
-LQD_FILE = os.path.join('./obm-sim-websearch-n-priority-shared', LQD_FILE)
-abm = extract_p99_short_fct(ABM_FILE)
-lqd = extract_p99_short_fct(LQD_FILE)
+
+ABM_FILE_F = os.path.join('./obm-sim-websearch-n-priority-shared', ABM_FILE)
+LQD_FILE_F = os.path.join('./obm-sim-websearch-n-priority-shared', LQD_FILE)
+abm = extract_p99_short_fct(ABM_FILE_F)
+lqd = extract_p99_short_fct(LQD_FILE_F)
 
 print("Last ABM values:", abm)
 print("Last LQD values:", lqd)
@@ -268,12 +269,12 @@ print("Last LQD values:", lqd)
 for load in LOADS:
     if load not in abm:
         raise ValueError(
-            f"Could not find Websearch load {load} in {ABM_FILE}"
+            f"Could not find Websearch load {load} in {ABM_FILE_F}"
         )
 
     if load not in lqd:
         raise ValueError(
-            f"Could not find Websearch load {load} in {LQD_FILE}"
+            f"Could not find Websearch load {load} in {LQD_FILE_F}"
         )
 
 

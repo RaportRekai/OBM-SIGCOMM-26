@@ -169,7 +169,7 @@ class Host:
                             fct = currTimeslot - starttime
                             recvTput = (flowsize * 1500 * 8)/(fct * 120.0)
                             fct = fct - int (750/0.12) if ld == '0.6' else fct
-                            fct = fct - 400*(int(float(ld)/0.6))/0.12
+                            fct = fct - int(400*(int(float(ld)/0.6))/0.12)
                             flowLogFile.write(", fct: " + str(fct))
                             flowLogFile.write(", recvtput: " + str(round(recvTput,2)) + " Gbps")
                             assert(timeLastPktSent >= starttime)

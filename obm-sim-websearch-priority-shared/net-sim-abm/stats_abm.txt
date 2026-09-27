@@ -1,0 +1,16 @@
+Network throughput (assuming 100G link and 1500B pkt): 1034.255 Gbps
+current timeslot: 88184 total packets sent: 941711 total packets received: 912047  total flows finished(long,short): 197  ,  423 
+Network throughput (assuming 100G link and 1500B pkt): 1356.294 Gbps
+current timeslot: 133515 total packets sent: 1933496 total packets received: 1810856  total flows finished(long,short): 401  ,  856 
+Network throughput (assuming 100G link and 1500B pkt): 1034.255 Gbps
+current timeslot: 88184 total packets sent: 941711 total packets received: 912047  total flows finished(long,short): 197  ,  423 
+Network throughput (assuming 100G link and 1500B pkt): 1356.294 Gbps
+current timeslot: 133515 total packets sent: 1933496 total packets received: 1810856  total flows finished(long,short): 401  ,  856 
+Network throughput (assuming 100G link and 1500B pkt): 1490.838 Gbps
+current timeslot: 173145 total packets sent: 2809697 total packets received: 2581312  total flows finished(long,short): 567  ,  1299 
+Network throughput (assuming 100G link and 1500B pkt): 1034.255 Gbps
+current timeslot: 88184 total packets sent: 941711 total packets received: 912047  total flows finished(long,short): 197  ,  423 
+Network throughput (assuming 100G link and 1500B pkt): 1356.294 Gbps
+current timeslot: 133515 total packets sent: 1933496 total packets received: 1810856  total flows finished(long,short): 401  ,  856 
+Network throughput (assuming 100G link and 1500B pkt): 1490.838 Gbps
+current timeslot: 173145 total packets sent: 2809697 total packets received: 2581312  total flows finished(long,short): 567  ,  1299 
