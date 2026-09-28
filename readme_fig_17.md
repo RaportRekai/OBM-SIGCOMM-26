@@ -1,2 +1,8 @@
-This branch runs experiments for dctcp incast workload with three priority queues with both fully shared and partially shared buffer
 
+Generating Figure 17
+
+This branch contains the scripts required to generate Figure 17.
+
+Run the following command from the branch directory:
+
+bash run.sh
