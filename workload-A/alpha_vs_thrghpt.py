@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 from math import isclose, ceil
 
-DT_DIR  = "/home/dan/LQD/LQD/master/dt_logs"
-OUT_DIR = "/home/dan/LQD/LQD/master/plots_thrgpt_vs_alpha"
+DT_DIR  = "./LQD/master/dt_logs"
+OUT_DIR = "."
 os.makedirs(OUT_DIR, exist_ok=True)
 
 RE_BASE = re.compile(r"^output_dt_(\d+)_([A-Za-z]+)_(\d+)_([0-9.]+)\.txt$", re.I)

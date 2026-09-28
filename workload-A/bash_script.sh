@@ -21,6 +21,8 @@ for i in ${!alpha[@]}; do
 done
 wait
 
+python alpha_vs_thrghpt.py
+
 ############################################## second session #######################################
 
 # round_values=10
