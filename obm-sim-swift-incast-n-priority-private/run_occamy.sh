@@ -1,6 +1,6 @@
 !/bin/bash
 ALGO="net-sim-occamy"
-BASE_DIR="/home/dan/obm-sim/obm-sim/$ALGO"
+BASE_DIR="./$ALGO"
 LOG_DIR="$BASE_DIR/logs"
 ARCHIVE_DIR="$BASE_DIR/prev_logs/all_logs"
 SWITCH_FILE="$BASE_DIR/switch.py"

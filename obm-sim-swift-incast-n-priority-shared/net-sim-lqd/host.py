@@ -85,11 +85,11 @@ class Host:
 
         self.hopScaling   = 7        # timeslot   extra per additional hop
 
-        self.fs_range     = 60       # timeslot   max cushion for heavy fan-in
+        self.fs_range     = 30       # timeslot   max cushion for heavy fan-in
 
         self.fs_min_cwnd  = 1        # pkts cwnd where cushion is full
 
-        self.fs_max_cwnd  = 90      # pkts cwnd where cushion vanishes
+        self.fs_max_cwnd  = 30      # pkts cwnd where cushion vanishes
 
         self.lastDecreaseRTT = {}    # This keeps track of RTT at the time of cwnd decrease 
 

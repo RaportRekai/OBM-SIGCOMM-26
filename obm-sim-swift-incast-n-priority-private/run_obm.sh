@@ -1,5 +1,5 @@
 #!/bin/bash
-BASE_DIR="/home/dan/obm-sim/obm-sim/net-sim-obm"
+BASE_DIR="./net-sim-obm"
 LOG_DIR="$BASE_DIR/logs"
 ARCHIVE_DIR="$BASE_DIR/prev_logs/all_logs"
 SWITCH_FILE="$BASE_DIR/switch.py"

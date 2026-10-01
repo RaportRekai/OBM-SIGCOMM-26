@@ -91,7 +91,7 @@ class Network:
                 self.switches[addr2].port_qsize[p2] = 0
 
 
-    def run(self, flowtrace, endTimeslot, flowLogFile):
+    def run(self, flowtrace, endTimeslot, flowLogFile, logname):
         """Run the network"""
         self.addLinks()
 
@@ -138,7 +138,7 @@ class Network:
                 self.hosts[src].rrSched.append((dst,sport,dport))
                 self.hosts[src].retransmissionCnt[(dst,sport,dport)] = 0
                 self.hosts[src].lastDecrease[(dst,sport,dport)] = 0
-                self.hosts[src].cwnd[(dst,sport,dport)] = 50
+                self.hosts[src].cwnd[(dst,sport,dport)] = 20
                 self.hosts[src].alpha[(dst,sport,dport)] = 0
                 self.hosts[src].targetdelay[(dst,sport,dport)] = 0
                 self.hosts[src].numPktSentInCurrWin[(dst,sport,dport)] = 0
@@ -193,7 +193,7 @@ class Network:
                 sys.stdout.write("Ending simulation as all flows have finished.\n")
                 nwTput = (totalPktRecvd[0] * 1500 * 8.0) / (currTimeslot * 120.0)  # Assuming 100G link and 1500B packets
                 sys.stdout.write("Network throughput (assuming 100G link and 1500B pkt): " + str(round(nwTput,3)) + "Gbps\n")
-                with open("reordering_lqd_per_flow.txt", "a", encoding="utf-8") as f:
+                with open("reordering_obm_per_flow.txt", "a", encoding="utf-8") as f:
                     for h, events_by_flow in self.reordering_pairs.items():
                         for (dst, src, dport, sport), pairs in events_by_flow.items():
                             for item in pairs:
@@ -208,6 +208,15 @@ class Network:
                 #         f.write(f"{src},{dst},{sport},{dport}," + ",".join(map(str, seqs)) + "\n")
                 # with open("reordering_lqd.txt", "a", encoding="utf-8") as f:
                 #     f.write(f"drop count = {sum(self.drops.values())}\n")
+                # ================= ADD THIS BLOCK HERE =================
+                sys.stdout.write("Exporting Credence training data...\n")
+                for addr, switch_obj in self.switches.items():
+                    # Generate a unique filename per switch, e.g., logs/training_data_t0.csv
+                    fname = f"training_logs/{logname}/training_data_{addr}.csv"
+                    # Check if the method exists (safety check) before calling
+                    if hasattr(switch_obj, 'export_training_data'):
+                        switch_obj.export_training_data(fname)
+                # =======================================================
                 break
 
         if currTimeslot >= endTimeslot:
@@ -215,7 +224,7 @@ class Network:
             sys.stdout.write("Ending simulation as end timeslot reached.\n")
             nwTput = (totalPktRecvd[0] * 1500 * 8.0) / (currTimeslot * 120.0)  # Assuming 100G link and 1500B packets
             sys.stdout.write("Network throughput (assuming 100G link and 1500B pkt): " + str(round(nwTput,3)) + "Gbps\n")
-            with open("reordering_lqd_per_flow.txt", "a", encoding="utf-8") as f:
+            with open("reordering_obm_per_flow.txt", "a", encoding="utf-8") as f:
                     for h, events_by_flow in self.reordering_pairs.items():
                         for (dst, src, dport, sport), pairs in events_by_flow.items():
                             for item in pairs:
@@ -253,7 +262,7 @@ def main():
         if f not in protected:
             os.remove(f)
     flowLogFile = open(f"logs/recvd-flows-{logname}.txt", "a")
-    net.run(flowtrace, endTimeslot, flowLogFile)
+    net.run(flowtrace, endTimeslot, flowLogFile,logname)
     flowLogFile.close()
     return
 

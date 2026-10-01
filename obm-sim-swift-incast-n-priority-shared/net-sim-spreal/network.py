@@ -170,7 +170,7 @@ class Network:
             for h in self.hosts:
                 _, events = self.hosts[h].runHost(currTimeslot, flowLogFile,
                                                  ackQueues, totalPktSent,
-                                                 totalPktRecvd, totalFlowsFinished)
+                                                 totalPktRecvd, totalFlowsFinished,logname)
 
                 # if you want a flat per-host list of all (next_expected, received) events:
                 self.reordering_pairs[h] = {fk: list(v) for fk, v in events.items()}
