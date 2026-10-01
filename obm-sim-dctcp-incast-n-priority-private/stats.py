@@ -51,15 +51,15 @@ with open(path, 'r') as f:
 # ---- FCT stats (unchanged behavior) ----
 def print_fct_stats(name, arr):
     arr = sorted(arr)
-    avgfct = np.mean(arr) if arr else float('nan')
+    # avgfct = np.mean(arr) if arr else float('nan')
     p99fct = np.percentile(arr, 99.6) if arr else float('nan')
-    p999fct = np.percentile(arr, 99.9) if arr else float('nan')
-    sys.stdout.write(f"Average FCT {name} flows: {round(avgfct,3)}us\n")
+    # p999fct = np.percentile(arr, 99.9) if arr else float('nan')
+    # sys.stdout.write(f"Average FCT {name} flows: {round(avgfct,3)}us\n")
     sys.stdout.write(f"p99 FCT {name} flows: {round(p99fct,3)}us\n")
-    sys.stdout.write(f"p99.9 FCT {name} flows: {round(p999fct,3)}us\n")
+    # sys.stdout.write(f"p99.9 FCT {name} flows: {round(p999fct,3)}us\n")
 
 print_fct_stats('short', fct_short)
-print_fct_stats('long', fct_long)
+# print_fct_stats('long', fct_long)
 
 # ---- Throughput stats (new) ----
 def print_tput_stats(name, arr):
@@ -69,5 +69,5 @@ def print_tput_stats(name, arr):
     sys.stdout.write(f"Total recv throughput ({name}, n={n}): {round(total,3)} Gbps\n")
     sys.stdout.write(f"Average recv throughput ({name}): {round(avg,3)} Gbps\n")
 
-print_tput_stats('short', tput_short)
+# print_tput_stats('short', tput_short)
 print_tput_stats('long', tput_long)
